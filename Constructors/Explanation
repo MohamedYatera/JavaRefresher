@@ -1,0 +1,8 @@
+In this example:
+
+    The Animal class has a parameterized constructor that takes a name argument.
+    The Dog class is a subclass of Animal and has an additional breed field.
+    When you create a Dog object, the Dog constructor is called. Inside the Dog constructor, the super(name) line calls the constructor of the Animal class, passing the name argument.
+    This leads to constructor chaining, where the Animal constructor is executed before the Dog constructor.
+
+Remember that constructors are not inherited, but they are called as part of the object creation process to ensure proper initialization of both the subclass and the superclass components.
