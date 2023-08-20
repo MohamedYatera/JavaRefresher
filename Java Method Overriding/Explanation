@@ -1,0 +1,8 @@
+Okay, imagine you have a special toy that makes a sound when you press a button. Your big sibling already has a similar toy that also makes a sound.
+
+Now, let's say your big sibling shows you how to change the sound of the toy by opening it and putting in a different button that makes a new sound. They tell you that you can do this because the toy you have is a bit like theirs.
+
+In Java, when you have a special class that's a bit like another class, you can change how a special action works in a similar way. This special action is like the sound the toy makes. When you change how the action works in your special class to be 
+different from the original class, you're "overriding" it. Just like you changed the button to make a different sound, you're changing how the action happens in your class.
+
+So, "override" in Java means changing or making a new way for something to happen in your special class, when it's already happening in a similar way in another class.
