@@ -1,0 +1,4 @@
+
+In this example, the sum method takes a varargs parameter named numbers of type int. You can call this method with any number of integer arguments. The method treats the numbers parameter as an array and calculates the sum of all the integers.
+
+Varargs are particularly helpful when you want to provide flexibility in the number of arguments a method can accept. They are often used in utility methods and other scenarios where you don't know how many arguments will be passed at compile time.
