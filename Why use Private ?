@@ -1,0 +1,19 @@
+Declaring methods as private, protected, or public affects their visibility and accessibility from outside the class. Let's discuss why you might want to make methods private in this context:
+
+1.   Encapsulation: One of the key principles of object-oriented programming is encapsulation. Making methods private means that they can only be accessed and used within the same class.
+     This hides the implementation details of these methods from other classes and ensures that they are only used in the intended way.
+
+2.    Information Hiding: By making methods private, you can control which parts of your class are accessible to other classes. This can be important to prevent unintended modification or misuse of methods.
+
+3.    Abstraction: Making methods private helps in creating a clear distinction between the public interface (methods that are accessible from outside) and the internal implementation (private methods). 
+      This separation allows you to change the implementation details without affecting the classes that use your code.
+
+4.    Encouraging Correct Usage: When methods are private, it forces users of your class to rely on the public methods that you provide. 
+      This way, you can ensure that data is processed and accessed in the expected manner, helping to prevent potential bugs and misuse.
+
+Internal Use: Some methods are implemented to perform specific tasks that support the functionality of the class itself. These methods might be responsible for handling certain calculations, data manipulation, or other operations that are necessary for the class to work correctly. They might not have a clear purpose or meaningful behavior when accessed independently from outside the class.
+
+Public Interface: On the other hand, a class usually exposes a public interface, which consists of methods that are designed to be used by other parts of your program. These methods provide a way for external components to interact with the class, perform certain actions, and retrieve necessary information.
+
+When I mention that certain methods are "not meant to be accessed directly from outside," I'm suggesting that their primary purpose is to support the internal workings of the class and are not intended for direct interaction by other classes or components. 
+By marking these methods as private, you indicate that they are part of the internal implementation and should not be used independently.
