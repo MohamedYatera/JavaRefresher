@@ -1,0 +1,14 @@
+An interface is a set of specific mehods that classes can implement. It defines methods like adding, removing, getting elements, and more. 
+
+So when you create an instance(obect) of a specific interface, you can uses that interface's method.
+
+
+_____________________________________________________________________________
+Using List<Integer> instead of int[] (array) offers several advantages:
+
+Dynamic Size: Lists automatically adjust their size as elements are added or removed. Arrays have a fixed size once they are created, and if you need to change the size, you have to create a new array and copy the elements.
+
+Built-in Methods: The List interface provides a rich set of methods for manipulating the list, such as adding, removing, searching, sorting, and more. With arrays, you would need to implement these functionalities yourself or rely on utility methods provided by Java's Arrays class.
+
+Flexibility: Lists are part of the Java Collections Framework, which includes various implementations like ArrayList, LinkedList, and more. 
+This allows you to choose the implementation that best fits your use case (e.g., fast random access or efficient insertions/deletions).
