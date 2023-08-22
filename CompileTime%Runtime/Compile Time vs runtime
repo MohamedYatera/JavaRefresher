@@ -1,5 +1,9 @@
 In java running a program happens in two steps, compilation and then execution.
 
-![alt text](https://refreshjava.com/images/java/compileAndRuntime.jpg)
 
 
+At compile time, the java compiler(javac) takes the source code(.java file) and checks if there is any syntax, type-checking or any semantic errors inside the program. 
+If there is no error, the compiler generates a .class(bytecode) file for that .java file. If there is any compilation error, java compiler displays that error in command window(eg cmd).
+
+As soon as the programmer starts executing the program using java command, runtime gets started and it ends when execution of program ended either successfully or unsuccessfully. 
+In other way the process of running a program is known as runtime. 
