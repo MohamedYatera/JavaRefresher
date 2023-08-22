@@ -2,6 +2,8 @@ An interface is a set of specific mehods that classes can implement. It defines 
 
 So when you create an instance(obect) of a specific interface, you can uses that interface's method.
 
+The e in List<e> represents the data type, such as Integer or String
+
 
 _____________________________________________________________________________
 Using List<Integer> instead of int[] (array) offers several advantages:
