@@ -4,6 +4,7 @@ So when you create an instance(obect) of a specific interface, you can uses that
 
 The e in List<e> represents the data type, such as Integer or String
 
+It's saying, "Hey, I promise to have methods that behave just like the ones described in the List interface rules."
 
 _____________________________________________________________________________
 Using List<Integer> instead of int[] (array) offers several advantages:
