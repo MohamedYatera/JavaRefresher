@@ -1,0 +1,2 @@
+    If a yield statement is used in a case block, it returns a value and terminates the switch expression's execution.
+    If no yield statement is used, the switch expression continues evaluating the subsequent cases until it reaches the end or encounters a yield statement.
