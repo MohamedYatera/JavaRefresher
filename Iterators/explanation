@@ -1,0 +1,9 @@
+In Java, an iterator is an interface that provides a way to traverse through elements in a collection (such as lists, sets, and maps) one by one. It abstracts the process of iteration, making it easier to work with different types of collections without having to know their internal implementation details. The primary purpose of an iterator is to provide a consistent way to access elements regardless of the specific collection type.
+
+The java.util.Iterator interface defines the standard methods that an iterator should implement:
+
+1.    boolean hasNext(): Returns true if there are more elements in the collection, otherwise returns false.
+
+2.  E next(): Returns the next element in the collection and advances the iterator. Throws NoSuchElementException if there are no more elements to iterate over.
+
+3.   void remove(): Removes the last element returned by the next method from the collection. This method is optional and not supported by all iterators.
