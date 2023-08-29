@@ -1,0 +1,43 @@
+1. Creating an Iterator:
+
+    You obtain an iterator instance from a collection by calling the iterator() method on that collection.
+    For example, for a List collection:
+
+List<String> myList = new ArrayList<>();
+Iterator<String> iterator = myList.iterator();
+______________________________________________________________
+2. Iterating Through Elements:
+
+    You use the hasNext() method to check if there are more elements to iterate over.
+    You use the next() method to retrieve the next element in the collection.
+    You continue this loop until hasNext() returns false.
+
+
+
+while (iterator.hasNext()) {
+    String element = iterator.next();
+    // Process the element
+}
+______________________________________________________________
+3. Removing Elements (Optional):
+
+    Some iterators support the remove() method, which allows you to remove the last element returned by next() from the collection.
+    Not all collections or iterators support this operation.
+
+
+while (iterator.hasNext()) {
+    String element = iterator.next();
+    if (/* some condition */) {
+        iterator.remove(); // Remove the current element
+    }
+}
+______________________________________________________________
+4. Advantages:
+
+    Iterators provide a uniform way to traverse different types of collections.
+    They allow you to iterate over a collection without exposing its internal structure.
+
+5. Limitations:
+
+    Iterators are forward-only, meaning you can't traverse the collection in reverse using a standard iterator.
+    They don't provide an index to the elements, so you can't directly access elements by their index.
