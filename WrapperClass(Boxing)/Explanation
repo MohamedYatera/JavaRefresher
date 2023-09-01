@@ -1,0 +1,10 @@
+Sure, imagine you have a toy car, and you want to put it inside a special box to keep it safe. The toy car is like a primitive data type in Java, such as an int or a float.
+
+Now, think of the special box as a "wrapper class" in Java. It's like a container that can hold your toy car, but it also has extra features and information about the car. 
+So, when you put your toy car into this special box (wrapper class), it becomes more than just a car; it's now a car with some extra abilities.
+
+In Java, a wrapper class is like that special box. It wraps or encloses a primitive data type and adds extra methods and features to it. 
+For example, if you have an int (like your toy car), you can put it inside an Integer wrapper class (the special box), 
+and now you can do more things with it, like convert it to a string, compare it to other numbers, or perform various operations on it.
+
+So, a wrapper class is like a container that makes a simple thing (primitive data) more powerful and versatile, just like putting your toy car into a special box gives it extra features and protection.
