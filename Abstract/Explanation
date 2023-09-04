@@ -1,0 +1,6 @@
+If we say "i went to go get tickets today", its vague because  we don't know what kind of tickets.
+By the same token "Animals" could mean dog, cat, lion , etc...
+
+An abstract class is used as a form of contract promising that its methods/variables will be used. The methods in the absract class dont have any body. We call those methods unimplemented
+
+So unlike its counter part "concrete classes" you dont have to use override to change the parent code or use the same parent code.
