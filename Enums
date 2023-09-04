@@ -1,0 +1,42 @@
+In Java, an enum (short for "enumeration") is a special data type that represents a fixed set of constant values. 
+Enums are used to define a collection of named values, which can make your code more readable and maintainable when you have a set of related, distinct values that shouldn't change during the execution of your program.
+
+_______________________
+public enum DayOfWeek {
+    SUNDAY,
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY
+}
+
+______________________
+
+DayOfWeek today = DayOfWeek.WEDNESDAY;
+
+switch (today) {
+    case MONDAY:
+        System.out.println("It's Monday!");
+        break;
+    case WEDNESDAY:
+        System.out.println("It's Wednesday!"); // Will print this
+        break;
+    default:
+        System.out.println("It's not Monday or Wednesday.");
+}
+______________________________________
+In Java enums, each enum constant has two useful methods:
+
+    name(): This method returns the name of the enum constant as a String. In your code, weekDay.name() is used to get the name of the weekDay enum constant and print it.
+
+    ordinal(): This method returns the position or index of the enum constant in the enumeration, starting from 0 for the first constant. In your code, weekDay.ordinal() is used to get the ordinal value of the weekDay enum constant and print it.
+
+    DayOfTheWeek.values(): This method is automatically provided by Java for every enum type. It returns an array containing all the enum constants in the order they are defined in the enum.
+______________________________________
+DayOfTheWeek weekDay = DayOfTheWeek.TUES;
+System.out.println(weekDay.name());   // Prints "TUES"
+System.out.println(weekDay.ordinal()); // Prints 2
+
+
