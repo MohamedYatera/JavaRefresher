@@ -1,0 +1,19 @@
+n Java, an interface is a programming construct that defines a contract of methods that a class implementing the interface must adhere to. 
+It specifies a set of method signatures (methods with their names, return types, and parameters) without providing any implementation. 
+Classes that implement an interface are then required to provide concrete (i.e., implemented) versions of those methods.
+
+Here are key characteristics and rules associated with interfaces in Java:
+
+    Declaration: To declare an interface, you use the interface keyword, followed by the interface's name and a list of method declarations.
+
+    Abstract Methods: In an interface, all methods are implicitly abstract, which means they don't have a method body. Implementing classes must provide the actual implementation for these methods.
+
+    Public Access: All methods declared in an interface are implicitly public and abstract, and all fields (variables) are implicitly public, static, and final. You don't need to explicitly declare these modifiers.
+
+    Multiple Inheritance: Unlike classes, Java supports multiple inheritance for interfaces. A class can implement multiple interfaces, inheriting the method contracts from each interface.
+
+    Implementation by Classes: Classes that implement an interface must provide concrete implementations for all the methods declared in the interface. Failure to do so results in a compilation error.
+
+    No Constructors: Interfaces cannot have constructors because they cannot be instantiated directly.
+
+    Default and Static Methods: Starting from Java 8, interfaces can include default methods (methods with a default implementation) and static methods, allowing you to add new methods to interfaces without breaking existing implementations.
