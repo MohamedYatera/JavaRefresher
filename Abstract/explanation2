@@ -1,0 +1,13 @@
+Subclasses for both abstract classes and regular (non-abstract) classes follow the same principles in terms of inheritance, but there are some key differences in how they are used and designed:
+
+    Instantiation: The most significant difference is that you cannot create instances (objects) of an abstract class directly, while you can create instances of a regular (non-abstract) class. 
+    You can only create objects of concrete subclasses of an abstract class.
+
+    Abstract Methods: Abstract classes can have abstract methods (methods without implementations), which must be implemented by concrete subclasses. 
+    Regular classes do not have abstract methods, and all methods must be implemented in the class itself.
+
+    Polymorphism: Both abstract classes and regular classes support polymorphism, which means you can use objects of subclasses in place of objects of the parent class. 
+    This allows you to write more generic code that works with a variety of objects.
+
+    Code Reusability: Abstract classes are often used to define common interfaces or behaviors that can be shared among multiple subclasses. 
+    This promotes code reusability and a consistent API across subclasses. Regular classes can also be used for this purpose but do not enforce the implementation of specific methods in subclasses.
