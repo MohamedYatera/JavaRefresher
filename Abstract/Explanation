@@ -5,5 +5,7 @@ An abstract class is used as a form of contract promising that its methods/varia
 
 So unlike its counter part "concrete classes" you dont have to use override to change the parent code or use the same parent code.
 
+Cannot have abstract fields.
+
 Everthing in the abstract class has to be used
 
