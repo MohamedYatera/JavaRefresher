@@ -1,0 +1,4 @@
+int number; // Declaring an integer variable named 'number'
+int number = 42; // Initializing 'number' with the value 42
+// Instantiating an object of class 'Person'
+Person person = new Person();
