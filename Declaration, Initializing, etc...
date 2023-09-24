@@ -2,3 +2,9 @@ int number; // Declaring an integer variable named 'number'
 int number = 42; // Initializing 'number' with the value 42
 // Instantiating an object of class 'Person'
 Person person = new Person();
+
+
+Declaring is about specifying the type and name of a variable.
+Initializing is about giving a variable its initial value at the time of declaration.
+Assigning is about changing the value of a variable after it has been declared and initialized.
+Instantiating is the process of creating an object of a class, which involves allocating memory and calling the constructor to initialize its state.
