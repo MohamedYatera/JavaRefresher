@@ -1,0 +1,7 @@
+Example:
+this was in the array API public static void sort(int[] a)
+that means you need to do class name. metehod name
+Arrays.sort(array);
+
+
+you cant do array_name.sort
