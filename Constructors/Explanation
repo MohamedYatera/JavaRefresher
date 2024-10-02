@@ -6,3 +6,5 @@ In this example:
     This leads to constructor chaining, where the Animal constructor is executed before the Dog constructor.
 
 Remember that constructors are not inherited, but they are called as part of the object creation process to ensure proper initialization of both the subclass and the superclass components.
+
+Refer to the object that called the function (constructor is a fonction)
